@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RSainath" parallel="none">
+<test name="KeywordF">
+		<classes>
+			<class name="DriverFactory.PBDriverScript" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="HybridF">
+		<classes>
+			<class name="DriverFactory.DriverScriptHybrid" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="DatadrivenF">
+		<classes>
+			<class name="DriverFactory.DataDriven" />
+        </classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
