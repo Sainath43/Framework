@@ -1,25 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Login Success:]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login Success:]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login Success:]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login Success:]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials]]>
+    </line>
   </reporter-output>
-  <suite started-at="2020-09-15T19:01:18 IST" name="Default suite" finished-at="2020-09-15T19:01:59 IST" duration-ms="41343">
+  <suite started-at="2020-09-17T10:30:28 IST" name="Sainath" finished-at="2020-09-17T10:32:05 IST" duration-ms="97458">
     <groups>
     </groups>
-    <test started-at="2020-09-15T19:01:18 IST" name="Default test" finished-at="2020-09-15T19:01:59 IST" duration-ms="41343">
-      <class name="DriverFactory.TestScript">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:DriverFactory.TestScript@4fe767f3]" started-at="2020-09-15T19:01:18 IST" name="setUp" finished-at="2020-09-15T19:01:34 IST" duration-ms="16098" status="PASS">
+    <test started-at="2020-09-17T10:30:28 IST" name="chrometest" finished-at="2020-09-17T10:31:01 IST" duration-ms="33147">
+      <class name="Sep16.crossbrowsertesting">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Sep16.crossbrowsertesting@7b227d8d]" started-at="2020-09-17T10:30:28 IST" name="beforeTest" finished-at="2020-09-17T10:30:39 IST" duration-ms="10727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="branches()[pri:0, instance:DriverFactory.TestScript@4fe767f3]" started-at="2020-09-15T19:01:34 IST" name="branches" finished-at="2020-09-15T19:01:58 IST" duration-ms="24416" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:Sep16.crossbrowsertesting@7b227d8d]" started-at="2020-09-17T10:30:39 IST" name="verifyLogin" data-provider="supplyData" finished-at="2020-09-17T10:30:47 IST" duration-ms="7665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success:]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:Sep16.crossbrowsertesting@7b227d8d]" started-at="2020-09-17T10:30:47 IST" name="verifyLogin" data-provider="supplyData" finished-at="2020-09-17T10:30:53 IST" duration-ms="6623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:Sep16.crossbrowsertesting@7b227d8d]" started-at="2020-09-17T10:30:53 IST" name="verifyLogin" data-provider="supplyData" finished-at="2020-09-17T10:30:56 IST" duration-ms="3170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success:]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:Sep16.crossbrowsertesting@7b227d8d]" started-at="2020-09-17T10:30:56 IST" name="verifyLogin" data-provider="supplyData" finished-at="2020-09-17T10:30:59 IST" duration-ms="2177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Sep16.crossbrowsertesting@7b227d8d]" started-at="2020-09-17T10:30:59 IST" name="afterTest" finished-at="2020-09-17T10:31:01 IST" duration-ms="2582" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- branches -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:DriverFactory.TestScript@4fe767f3]" started-at="2020-09-15T19:01:58 IST" name="tearDown" finished-at="2020-09-15T19:01:59 IST" duration-ms="738" status="PASS">
+        </test-method> <!-- afterTest -->
+      </class> <!-- Sep16.crossbrowsertesting -->
+    </test> <!-- chrometest -->
+    <test started-at="2020-09-17T10:31:03 IST" name="msedgetest" finished-at="2020-09-17T10:32:05 IST" duration-ms="62871">
+      <class name="Sep16.crossbrowsertesting">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Sep16.crossbrowsertesting@159f197]" started-at="2020-09-17T10:31:03 IST" name="beforeTest" finished-at="2020-09-17T10:31:37 IST" duration-ms="34164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msedge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- DriverFactory.TestScript -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- beforeTest -->
+        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:Sep16.crossbrowsertesting@159f197]" started-at="2020-09-17T10:31:37 IST" name="verifyLogin" data-provider="supplyData" finished-at="2020-09-17T10:31:54 IST" duration-ms="17155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success:]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:Sep16.crossbrowsertesting@159f197]" started-at="2020-09-17T10:31:54 IST" name="verifyLogin" data-provider="supplyData" finished-at="2020-09-17T10:31:58 IST" duration-ms="4546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:Sep16.crossbrowsertesting@159f197]" started-at="2020-09-17T10:31:58 IST" name="verifyLogin" data-provider="supplyData" finished-at="2020-09-17T10:32:02 IST" duration-ms="3182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success:]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:Sep16.crossbrowsertesting@159f197]" started-at="2020-09-17T10:32:02 IST" name="verifyLogin" data-provider="supplyData" finished-at="2020-09-17T10:32:05 IST" duration-ms="3231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Sep16.crossbrowsertesting@159f197]" started-at="2020-09-17T10:32:05 IST" name="afterTest" finished-at="2020-09-17T10:32:05 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Sep16.crossbrowsertesting -->
+    </test> <!-- msedgetest -->
+  </suite> <!-- Sainath -->
 </testng-results>

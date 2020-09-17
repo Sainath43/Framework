@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sainath]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="msedgetest(failed)">
+    <parameter name="Browser" value="msedge"/>
+    <classes>
+      <class name="Sep16.crossbrowsertesting">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- Sep16.crossbrowsertesting -->
+    </classes>
+  </test> <!-- msedgetest(failed) -->
+</suite> <!-- Failed suite [Sainath] -->

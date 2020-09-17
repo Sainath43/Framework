@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name ="Sainath">
+<test name = "chrometest">
+<parameter name= "Browser" value ="chrome">
+</parameter>
+<classes>
+<class name="Sep16.crossbrowsertesting">
+</class>
+</classes>
+</test>
+<test name = "msedgetest">
+<parameter name= "Browser" value ="msedge">
+</parameter>
+<classes>
+<class name="Sep16.crossbrowsertesting">
+</class>
+</classes>
+</test>
+</suite>
